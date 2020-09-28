@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SCIENTIFIC CALCULATOR</title>
+</head>
+<body>
+    <div class="calc-container">
+        <div class="upper-div">
+            <div class="help">
+                <div class="calc-icon">
+                    <h3 style=" margin-top: 7px; color: white;">Scientific Calculator</h3>
+                </div>
+                <div class="top-menu">
+                    <div class="minimize"><h2>&#8722;</h2></div>
+                    <div class="cancel"><h2>&#xd7;</h2></div>
+                </div>
+            </div>
+            <div class="input-output">
+                <div class="output">
+                    <input type="text" id="output" placeholder="2563">
+                </div>
+                <div class="input">
+                    <input type="text" id="input" placeholder="0">
+                </div>
+            </div>
+        </div>
+        <div class="upper button" style="display: flex; margin-left: 10px; margin-right: 10px;">
+            <div class="container-0" style="display: flex; ">
+                <div class="mod">
+                    <button>mod</button>
+                </div>
+                <div class="deg-rad" style="display: flex; margin-top: 5px;">
+                    <input type="radio" name="degree_or_radian" value="deg" checked="checked">
+                    <label for="deg">deg</label>
+                    <input type="radio" name="degree_or_radian" value="rad" >
+                    <label for="rad">rad</label>
+                </div>
+                <div class="memory" style="display: flex; margin-left: 170px;">
+                    <button>MC</button>
+                    <button>MR</button>
+                    <button>MS</button>
+                    <button>M+</button>
+                    <button>M-</button>
+                </div>
+            </div>
+        </div>
+        <div class="button" style="display: flex; margin-left: 10px; margin-right: 10px;">
+            <div class="container-1" style="display: flex;">
+                <div class="sinh" style="display: flex; flex-direction: column;">
+                    <button>sinh</button>
+                    <button>sinh<sup>-1</sup></button>
+                    <button>&#928;</button>
+                    <button>sin</button>
+                    <button>sin<sup>-1</sup></button>
+                </div>
+                <div class="cosh" style="display: flex; flex-direction: column;">
+                    <button>cosh</button>
+                    <button>cosh<sup>-1</sup></button>
+                    <button>e</button>
+                    <button>cos</button>
+                    <button>cos<sup>-1</sup></button>
+                </div>
+            </div>
+            <div class="container-2" style="display: flex;">
+                <div class="tanh" style="display: flex; flex-direction: column;" >
+                    <button>tanh</button>
+                    <button>tanh<sup>-1</sup></button>
+                    <button>n!</button>
+                    <button>tan</button>
+                    <button>tan<sup>-1</sup></button>
+                </div>
+                <div class="exp" style="display: flex; flex-direction: column;">
+                    <button>Exp</button>
+                    <button>log<sub>2</sub>x</button>
+                    <button>log<sub>x</sub>y</button>
+                    <button>x<sup>y</sup></button>
+                    <button style="font-weight: 900;">y<sub style="font-weight: 900;">&#8730;</sub></button>
+                </div>
+            </div> 
+            <div class="container-3" style="display: flex;" >
+                <div class="left-bracket" style="display: flex; flex-direction: column;">
+                    <button >(</button>
+                    <button>ln</button>
+                    <button>e<sup>x</sup></button>
+                    <button>x<sup>3</sup></button>
+                    <button>&#8731;</button>
+                </div>
+                <div class="right-bracket" style="display: flex; flex-direction: column;" >
+                    <button>)</button>
+                    <button>log</button>
+                    <button>10<sup>x</sup></button>
+                    <button>x<sup>2</sup></button>
+                    <button>|x|</button>
+                </div>
+            </div>
+            <div class="container-4" style="display: flex; flex-direction: column;">
+                <div class="arrow">
+                    <button style="background-color: #c0392b; width: 100px; font-size: 15px; ">&#8592;</button>
+                </div>
+                <div class="join" style="display: flex;">
+                    <div class="seven" style="display: flex; flex-direction: column;">
+                        <button>7</button>
+                        <button>4</button>
+                        <button>1</button>
+                    </div>
+                    <div class="eight" style="display: flex; flex-direction: column;">
+                        <button>8</button>
+                        <button>5</button>
+                        <button>2</button>
+                    </div>
+                </div>
+                <div class="zero">
+                    <button style="width: 100px;">0</button>
+                </div>
+            </div>
+            <div class="container-5" style="display: flex;">
+                <div class="clear" style="display: flex; flex-direction: column;">
+                    <button style="background-color: #c0392b;">C</button>
+                    <button>9</button>
+                    <button>6</button>
+                    <button>3</button>
+                    <button>.</button>
+                </div>
+                <div class="plus-minus">
+                    <button style="background-color: #c0392b;">+/-</button>
+                    <button>/</button>
+                    <button>*</button>
+                    <button>-</button>
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="container-6" style="display: flex; flex-direction: column; margin-left: 0px;">
+                <button>&#8730;</button>
+                <button>%</button>
+                <button>1/x</button>
+                <button style="background-color: #27ae60; position: relative; height: 60px; font-size: 25px; ">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.calc-container{
+    width: 590px;
+    height: 320px;
+    background-color: #708c98;
+    border-radius: 10px;
+}
+.help{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    background-color: #429ef3;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+.calc-icon{
+    font-size: 15px;
+    font-weight: bold;
+}
+.top-menu{
+    display: flex;
+    margin-right: 10px;
+    flex-direction: row; 
+    float: right;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cancel{
+    margin-left: 15px;
+}
+.input-output{
+    margin: 9px 9px 9px 9px;
+}
+#output{
+    height: 30px;
+    width: 100%;
+    border-style: solid;
+    border-color: #aaa;
+    border-radius: 3px;
+    border-width: 1px 1px 3px;
+    line-height: 30px;
+    text-align: right;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+#input{
+    height: 30px;
+    width: 100%;
+    margin-top: 7px;
+    border-style: solid;
+    border-color: #aaa;
+    border-radius: 3px;
+    border-width: 1px 1px 3px;
+    line-height: 30px;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+button{
+    width: 50px;
+    height: 30px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 1px;
+}
+
+
+
+
